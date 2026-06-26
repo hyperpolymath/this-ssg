@@ -15,7 +15,7 @@ toc::[]
 
 == Core Features
 
-* *Absolute Local Isolation:* Eliminates global configuration leakage. Layout components exist as non-independent moments (*Momente*), strictly bound to their immediate file scope.
+* *Absolute Local Isolation:* Eliminates global configuration leakage. Layout components exist as non-independent moments (*momente*), strictly bound to their immediate file scope.
 * *Formal Token Discharging:* Fully integrated with type-checked pipelines (`ddraig`/`casket`). Misaligned metadata keys or missing layout tokens trigger immediate compilation gates rather than silent production failures.
 * *Pure Passthrough Preservation:* Enforces strict compliance for system paths (e.g., `.well-known/security.txt`). Content blocks flag bypass constraints explicitly, preventing parsing noise or unintended HTML wrapping.
 * *RSR Compliant Blueprint:* Native structure matching the `rsr-template-repo` configuration matrix.
